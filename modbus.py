@@ -13,8 +13,8 @@ while var < 3:
 #        rr1 = client.read_coils(address=var, count=1, unit=1);
 #        print rr1.registers;
 
-#        rr2 = client.read_holding_registers(address=var, count=1, unit=1);
-#        print rr2.registers;
+        rr2 = client.read_holding_registers(address=var, count=1, unit=1);
+        print rr2.registers;
 
         rr3 = client.read_input_registers(address=var, count=1, unit=1);
         print rr3.registers;
